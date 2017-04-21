@@ -1,0 +1,690 @@
+* {																																																																																		
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.top-bar {
+	width: 100%;
+	height: 51px;
+	background-color: #ba2e1f;
+	color: white;
+	font-size: 15px;
+	padding-top: 13px;
+}
+
+.top-bar span  {
+	margin-left: 15%;
+	margin-top: 15px;
+}
+
+.top-bar span a {
+	text-decoration: none;
+	color: white;
+}
+
+.searching-form {
+	height: 25px;
+	width: 210px;
+	margin-right: 15%;
+	background-color: white;
+	border-radius: 15px;
+	float: right;
+}
+
+.mg {
+	height: 1em;
+	width: 1em;
+}
+
+.round {
+	height: 19px;
+	width: 19px;
+	border-radius: 100%;
+	background-color: #ba2e1f;
+	margin-top: 3px;
+	float: right;
+	margin-right: 5px;
+}
+
+header {
+	height: 100px;
+}
+
+header span {
+	font-size: 40px;
+	margin-left: 15%;
+
+}
+
+.header-span {
+	margin-top: 55px;
+}
+
+.social a {
+	background-color: rgb(51, 51, 51);
+	height: 34px;
+	width: 34px;
+	border-radius: 100%;
+	display: inline-block;
+}
+
+
+.social a img {
+	margin-left: 8px;
+	margin-top: 9px;
+	width: 18px;
+	height: 16px;
+}
+
+.social {
+	float: right;
+	margin-right: 15%;
+}
+
+.social a:nth-child(1):hover {
+	background-color: #006699;
+}
+
+.social a:nth-child(2):hover {
+	background-color: #0099ff;
+}
+
+.social a:nth-child(3):hover {
+	background-color: #cc3333;
+}
+
+.social a:nth-child(4):hover {
+	background-color: #cc3333;
+}
+
+.social a:nth-child(5):hover {
+	background-color: #ff9933;
+}
+
+nav {
+	height: 41px;
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+	background-color: rgb(51, 51, 51);
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 5px;
+	height: 41px;
+	font-size: 15px;
+		color: white;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-top: 13px;
+	margin-left: 20px;
+}
+
+nav a {
+		text-decoration: none;
+		color: white;
+}
+
+nav a:hover {
+	color: rgb(186, 46, 31);
+}
+
+.rectangle {
+	margin-left: 15%;
+	width: 400px;
+	height: 440px;
+	background-color: rgb(51, 51, 51);
+	float: left;
+	margin-right: 40px;
+}
+
+.text {
+
+	margin-top: 30px;
+	height: 440px;
+	margin-right: 15%;
+}
+
+.huge-title {
+	font-size: 60px;
+}
+
+.read-more {
+	float: right;
+	text-decoration: none;
+	color: rgb(186, 46, 31);
+}
+
+.content {
+	background-color: rgb(242, 242, 242);
+	height: 440px;
+} 
+
+.rectangle2 {
+	width: 290px;
+	height: 140px;
+	background-color: rgb(51, 51, 51);
+}
+
+.about{
+	margin-left: 15%;
+	width: 290px;
+	float: left;
+}
+
+.about span {
+	font-size: 15px;
+}
+
+.content-title {
+	margin-top: 40px;
+	font-size: 30px;
+}
+
+.services {
+	width: 290px;
+	margin-left: 40px;
+	float: left;
+}
+
+.rectangle3 {
+	width: 64px;
+	height: 64px;
+	background-color: rgb(51, 51, 51);
+	float: left;
+	margin-right: 10px;
+}
+
+.service-name {
+	font-size: 20px;
+}
+
+.service1 {
+	display: inline-block;
+	font-size: 15px;
+	height: 64px;
+	margin-bottom: 10px;
+}
+
+.service-text {
+	float: left;
+}
+
+.clients {
+	margin-left: 20px;
+	width: 290px;
+	float: right;
+	margin-right: 15%; 
+}
+
+.comma {
+	color: rgb(212, 212, 212);
+	font-size: 200px;
+	letter-spacing: -30px;
+	line-height: 5px;
+	float: left;
+	margin-top: 50px; 
+}
+
+.ceo {
+	margin-top: -10px; 
+	color: rgb(152, 152, 152);
+	margin-left: 15px; 
+	font-size: 20px;
+}
+
+.ceo-text {
+	float: left;
+}
+
+.review {
+	float: left;
+	margin-top: 20px; 
+}
+
+footer {
+	margin-top: 30px;
+	height: 320px;
+}
+
+.tweets {
+	border-top: 1px solid rgb(102, 102, 102);
+	margin-left: 15%;
+	text-align: center;
+	width: 230px;
+
+	color: rgb(102, 102, 102);
+	float: left;
+}
+
+
+.links {
+	border-top: 1px solid rgb(102, 102, 102);
+	width: 230px;
+	float: left;
+	color: rgb(102, 102, 102);
+	margin-left: 20px;
+	text-align: center;
+}
+
+.links li {
+	border-bottom: 1px solid rgb(212, 212, 212);
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.author {
+	color: rgb(185, 45, 31);
+}
+
+.admin {
+	color: rgb(184, 44, 31);
+	font-size: 10px;
+}
+
+.post-info {
+	font-size: 10px;
+}
+
+.posts {
+	border-top: 1px solid rgb(102, 102, 102);
+	width: 230px;
+	float: left;
+	color: rgb(102, 102, 102);
+	margin-left: 20px;
+}
+
+.post {
+	line-height: 12px;
+}
+
+.name, .email, .subject {
+	text-align: left;
+	color: rgb(152, 152, 152);
+	background-color: rgb(242, 242, 242);
+	width: 230px;
+	height: 30px;
+	border: 0px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.message {
+	color: rgb(152, 152, 152);
+	background-color: rgb(242, 242, 242);
+	width: 230px;
+	height: 100px;
+	border: 0px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.submit {
+	text-align: left;
+	color: rgb(186, 46, 31);
+	background-color: rgb(242, 242, 242);
+	float: left;
+	height: 30px;
+	border: 0px;
+	margin-top: 10px;
+	border-radius: 5px;	
+}
+
+.contact {
+	border-top: 1px solid rgb(102, 102, 102);
+	text-align: center;
+	width: 230px;
+	color: rgb(102, 102, 102);
+	float: left;
+	margin-left: 20px;
+}
+
+textarea {
+	resize: none;
+}
+
+.copy {
+	height: 100px;
+	background-color: rgb(242, 242, 242);
+	color: rgb(146, 146, 146);
+	width: 100%;
+	margin-top: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 479px) {
+
+	.top-bar {
+		width: 100%;
+		height: 80px;
+		background-color: #ba2e1f;
+		color: white;
+		font-size: 1em;
+		padding-top: 13px;
+	}
+
+	.top-bar span  {
+		margin-left: 0.7em;
+		margin-top: 15px;
+	}
+
+	.top-bar span a {
+		text-decoration: none;
+		color: white;
+	}
+
+	.searching-form {
+		height: 1.1em;
+		width: 210px;
+		margin-right: ;
+		background-color: white;
+		border-radius: 15px;
+		margin-top: 15px;
+	}
+
+	.mg {
+		height: 1em;
+		width: 1em;
+	}
+
+	.round {
+		height: 1.1em;
+		width: 1.1em;
+		border-radius: 100%;
+		background-color: #ba2e1f;
+		margin-top: -1px;
+		float: right;
+		margin-right: 5px;
+	}
+
+	header {
+		height: 4em;
+	}
+
+	header span {
+		margin-left: 0.6em;
+		font-size: 2.5em;
+
+	}
+
+	.header-span {
+		margin-left: 0.6em;
+		font-size: 2.5em;
+		margin-top: 20px;
+	}
+
+	.social a {
+		background-color: rgb(51, 51, 51);
+		height: 1.7em;
+		width: 1.7em;
+		border-radius: 100%;
+		display: inline-block;
+	}
+
+.social {
+	float: right;
+	margin-right: 2em
+}
+
+	nav {
+	height: 14em;
+	}
+
+	nav ul {
+
+		list-style-type: none;
+		background-color: rgb(51, 51, 51);
+		border-radius: 5px;
+		height: 14em;
+		font-size: 1em;
+		color: white;
+		text-align: center;
+	}
+
+	nav ul li {
+		margin-left: -2em;
+		margin-top: 0.5em;
+		width: 100%;
+	}
+
+	nav a {
+			text-decoration: none;
+			color: white;
+	}
+ 
+	nav a:hover {
+		color: rgb(186, 46, 31);
+	}
+
+	.rectangle {
+	margin-left: 10%;
+	width: 15em;
+	height: 15em;
+	background-color: rgb(51, 51, 51);
+	float: left;
+	margin-right: 40px;
+	}
+
+.text {
+
+	margin-top: 30px;
+	height: 440px;
+	margin-right: 15%;
+}
+
+.huge-title {
+	font-size: 60px;
+}
+
+.read-more {
+	float: right;
+	text-decoration: none;
+	color: rgb(186, 46, 31);
+}
+
+.content {
+	background-color: rgb(242, 242, 242);
+	height: 440px;
+} 
+
+.rectangle2 {
+	width: 290px;
+	height: 140px;
+	background-color: rgb(51, 51, 51);
+}
+
+.about{
+	margin-left: 15%;
+	width: 290px;
+	float: left;
+}
+
+.about span {
+	font-size: 15px;
+}
+
+.content-title {
+	margin-top: 40px;
+	font-size: 30px;
+}
+
+.services {
+	width: 290px;
+	margin-left: 40px;
+	float: left;
+}
+
+.rectangle3 {
+	width: 64px;
+	height: 64px;
+	background-color: rgb(51, 51, 51);
+	float: left;
+	margin-right: 10px;
+}
+
+.service-name {
+	font-size: 20px;
+}
+
+.service1 {
+	display: inline-block;
+	font-size: 15px;
+	height: 64px;
+	margin-bottom: 10px;
+}
+
+.service-text {
+	float: left;
+}
+
+.clients {
+	margin-left: 20px;
+	width: 290px;
+	float: right;
+	margin-right: 15%; 
+}
+
+.comma {
+	color: rgb(212, 212, 212);
+	font-size: 200px;
+	letter-spacing: -30px;
+	line-height: 5px;
+	float: left;
+	margin-top: 50px; 
+}
+
+.ceo {
+	margin-top: -10px; 
+	color: rgb(152, 152, 152);
+	margin-left: 15px; 
+	font-size: 20px;
+}
+
+.ceo-text {
+	float: left;
+}
+
+.review {
+	float: left;
+	margin-top: 20px; 
+}
+
+footer {
+	margin-top: 30px;
+	height: 320px;
+}
+
+.tweets {
+	border-top: 1px solid rgb(102, 102, 102);
+	margin-left: 15%;
+	text-align: center;
+	width: 230px;
+
+	color: rgb(102, 102, 102);
+	float: left;
+}
+
+
+.links {
+	border-top: 1px solid rgb(102, 102, 102);
+	width: 230px;
+	float: left;
+	color: rgb(102, 102, 102);
+	margin-left: 20px;
+	text-align: center;
+}
+
+.links li {
+	border-bottom: 1px solid rgb(212, 212, 212);
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.author {
+	color: rgb(185, 45, 31);
+}
+
+.admin {
+	color: rgb(184, 44, 31);
+	font-size: 10px;
+}
+
+.post-info {
+	font-size: 10px;
+}
+
+.posts {
+	border-top: 1px solid rgb(102, 102, 102);
+	width: 230px;
+	float: left;
+	color: rgb(102, 102, 102);
+	margin-left: 20px;
+}
+
+.post {
+	line-height: 12px;
+}
+
+.name, .email, .subject {
+	text-align: left;
+	color: rgb(152, 152, 152);
+	background-color: rgb(242, 242, 242);
+	width: 230px;
+	height: 30px;
+	border: 0px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.message {
+	color: rgb(152, 152, 152);
+	background-color: rgb(242, 242, 242);
+	width: 230px;
+	height: 100px;
+	border: 0px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.submit {
+	text-align: left;
+	color: rgb(186, 46, 31);
+	background-color: rgb(242, 242, 242);
+	float: left;
+	height: 30px;
+	border: 0px;
+	margin-top: 10px;
+	border-radius: 5px;	
+}
+
+.contact {
+	border-top: 1px solid rgb(102, 102, 102);
+	text-align: center;
+	width: 230px;
+	color: rgb(102, 102, 102);
+	float: left;
+	margin-left: 20px;
+}
+
+textarea {
+	resize: none;
+}
+
+.copy {
+	height: 100px;
+	background-color: rgb(242, 242, 242);
+	color: rgb(146, 146, 146);
+	width: 100%;
+	margin-top: 30px;
+}
+
+}
