@@ -53,14 +53,10 @@ header {
 	height: 100px;
 }
 
-header span {
-	font-size: 40px;
-	margin-left: 15%;
-
-}
-
 .header-span {
 	margin-top: 55px;
+	font-size: 40px;
+	margin-left: 15%;
 }
 
 .social a {
@@ -153,6 +149,10 @@ nav a:hover {
 
 .huge-title {
 	font-size: 60px;
+}
+
+.huge-text {
+	font-size: 20px;
 }
 
 .read-more {
@@ -432,11 +432,13 @@ textarea {
 
 .social {
 	float: right;
-	margin-right: 2em
+	margin-right: 2em;
 }
 
 	nav {
 	height: 14em;
+	margin-top: 2em;
+	
 	}
 
 	nav ul {
@@ -465,9 +467,13 @@ textarea {
 		color: rgb(186, 46, 31);
 	}
 
+	.intro {
+		height: 850px;
+	}
+
 	.rectangle {
-	margin-left: 10%;
-	width: 15em;
+	margin-right: 15%;
+	width: 70%;
 	height: 15em;
 	background-color: rgb(51, 51, 51);
 	float: left;
@@ -477,12 +483,17 @@ textarea {
 .text {
 
 	margin-top: 30px;
-	height: 440px;
-	margin-right: 15%;
+	height: auto;
+	margin-left: 15%;
 }
 
 .huge-title {
-	font-size: 60px;
+	font-size: 4em;
+}
+
+.huge-text {
+	font-size: 1.2em;
+	margin-left: 15%;
 }
 
 .read-more {
@@ -493,12 +504,12 @@ textarea {
 
 .content {
 	background-color: rgb(242, 242, 242);
-	height: 440px;
+	height: 1300px;
 } 
 
 .rectangle2 {
-	width: 290px;
-	height: 140px;
+	width: 10em;
+	height: 5em;
 	background-color: rgb(51, 51, 51);
 }
 
@@ -547,10 +558,8 @@ textarea {
 }
 
 .clients {
-	margin-left: 20px;
-	width: 290px;
-	float: right;
-	margin-right: 15%; 
+	margin-left: 0px;
+	width: 270px; 
 }
 
 .comma {
@@ -559,18 +568,21 @@ textarea {
 	letter-spacing: -30px;
 	line-height: 5px;
 	float: left;
-	margin-top: 50px; 
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-bottom: 10px; 
 }
 
 .ceo {
 	margin-top: -10px; 
 	color: rgb(152, 152, 152);
 	margin-left: 15px; 
-	font-size: 20px;
+	font-size: 1.2em;
 }
 
 .ceo-text {
 	float: left;
+	font-size: 0.9em;
 }
 
 .review {
@@ -601,6 +613,7 @@ footer {
 	color: rgb(102, 102, 102);
 	margin-left: 20px;
 	text-align: center;
+	margin-left: 15%;
 }
 
 .links li {
@@ -628,6 +641,7 @@ footer {
 	float: left;
 	color: rgb(102, 102, 102);
 	margin-left: 20px;
+	margin-left: 15%;
 }
 
 .post {
@@ -673,6 +687,7 @@ footer {
 	color: rgb(102, 102, 102);
 	float: left;
 	margin-left: 20px;
+	margin-left: 15%;
 }
 
 textarea {
@@ -683,8 +698,8 @@ textarea {
 	height: 100px;
 	background-color: rgb(242, 242, 242);
 	color: rgb(146, 146, 146);
-	width: 100%;
-	margin-top: 30px;
+	padding-top: 20px;
+	display: flex;
 }
 
 }
