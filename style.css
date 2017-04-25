@@ -1,9 +1,16 @@
 * {																																																																																		
 	box-sizing: border-box;
+	font-family: Helvetica;
 }
 
 body {
 	margin: 0;
+}
+
+.fa {
+	color: white;
+	margin: 10px 0 0 10px;
+	font-size: 20px;
 }
 
 .top-bar {
@@ -35,6 +42,7 @@ body {
 }
 
 .mg {
+	margin: 2px;
 	height: 1em;
 	width: 1em;
 }
@@ -135,7 +143,7 @@ nav a:hover {
 	margin-left: 15%;
 	width: 400px;
 	height: 440px;
-	background-color: rgb(51, 51, 51);
+	background-image: url(img/1.jpg);
 	float: left;
 	margin-right: 40px;
 }
@@ -169,7 +177,7 @@ nav a:hover {
 .rectangle2 {
 	width: 290px;
 	height: 140px;
-	background-color: rgb(51, 51, 51);
+	background-image: url(img/2.gif);
 }
 
 .about{
@@ -196,7 +204,7 @@ nav a:hover {
 .rectangle3 {
 	width: 64px;
 	height: 64px;
-	background-color: rgb(51, 51, 51);
+	background-image: url(img/3.png);
 	float: left;
 	margin-right: 10px;
 }
@@ -229,7 +237,8 @@ nav a:hover {
 	letter-spacing: -30px;
 	line-height: 5px;
 	float: left;
-	margin-top: 50px; 
+	margin-top: 50px;
+	font-family: 'Times New Roman';
 }
 
 .ceo {
@@ -392,6 +401,7 @@ textarea {
 	}
 
 	.mg {
+		margin: 1px;
 		height: 1em;
 		width: 1em;
 	}
@@ -435,6 +445,10 @@ textarea {
 	margin-right: 2em;
 }
 
+.fa {
+	margin:0.4em 0 0 0.4em;
+}
+
 	nav {
 	height: 14em;
 	margin-top: 2em;
@@ -475,7 +489,7 @@ textarea {
 	margin-right: 15%;
 	width: 70%;
 	height: 15em;
-	background-color: rgb(51, 51, 51);
+	background-image: url(img/1.jpg);
 	float: left;
 	margin-right: 40px;
 	}
@@ -510,7 +524,7 @@ textarea {
 .rectangle2 {
 	width: 10em;
 	height: 5em;
-	background-color: rgb(51, 51, 51);
+	background-image: url(img/2.gif);
 }
 
 .about{
@@ -537,7 +551,7 @@ textarea {
 .rectangle3 {
 	width: 64px;
 	height: 64px;
-	background-color: rgb(51, 51, 51);
+	background-image: url(img/3.png);
 	float: left;
 	margin-right: 10px;
 }
