@@ -143,6 +143,7 @@ nav a:hover {
 	margin-left: 15%;
 	width: 400px;
 	height: 440px;
+	max-width: 100%;
 	background-image: url(img/1.jpg);
 	float: left;
 	margin-right: 40px;
@@ -177,7 +178,6 @@ nav a:hover {
 .rectangle2 {
 	width: 290px;
 	height: 140px;
-	background-image: url(img/2.gif);
 }
 
 .about{
@@ -204,9 +204,14 @@ nav a:hover {
 .rectangle3 {
 	width: 64px;
 	height: 64px;
-	background-image: url(img/3.png);
 	float: left;
 	margin-right: 10px;
+	max-width: 64px;
+}
+
+.rectangle3 img {
+	width: 64px;
+	height: 64px;
 }
 
 .service-name {
@@ -217,7 +222,7 @@ nav a:hover {
 	display: inline-block;
 	font-size: 15px;
 	height: 64px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 .service-text {
@@ -489,9 +494,12 @@ textarea {
 	margin-right: 15%;
 	width: 70%;
 	height: 15em;
-	background-image: url(img/1.jpg);
 	float: left;
 	margin-right: 40px;
+	}
+
+	.rectangle img, .rectangle2 img, .rectangle3 img {
+		max-width: 100%;
 	}
 
 .text {
@@ -524,7 +532,6 @@ textarea {
 .rectangle2 {
 	width: 10em;
 	height: 5em;
-	background-image: url(img/2.gif);
 }
 
 .about{
@@ -551,7 +558,6 @@ textarea {
 .rectangle3 {
 	width: 64px;
 	height: 64px;
-	background-image: url(img/3.png);
 	float: left;
 	margin-right: 10px;
 }
@@ -564,7 +570,7 @@ textarea {
 	display: inline-block;
 	font-size: 15px;
 	height: 64px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 .service-text {
