@@ -111,6 +111,7 @@ header {
 nav {
 	height: 41px;
 	width: 100%;
+	display: inline-block;
 }
 
 nav ul {
@@ -359,23 +360,28 @@ footer {
 	margin-left: 20px;
 }
 
+::-webkit-input-placeholder {	padding: 5px 0 0 10px;}
+
+
 textarea {
 	resize: none;
 }
 
 .copy {
+	width: 100%;
+	margin-top: 30px;
 	height: 100px;
 	background-color: rgb(242, 242, 242);
 	color: rgb(146, 146, 146);
-	width: 100%;
-	margin-top: 30px;
+	padding-top: 20px;
+	display: flex;
 }
 
 
 
 
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
 
 	.top-bar {
 		width: 100%;
@@ -457,7 +463,6 @@ textarea {
 	nav {
 	height: 14em;
 	margin-top: 2em;
-	
 	}
 
 	nav ul {
@@ -722,4 +727,92 @@ textarea {
 	display: flex;
 }
 
+}
+
+@media all and (min-width: 767px) and (max-width: 1025px) {
+	
+	header {
+		height: 4em;
+	}
+
+	nav {
+		white-space: normal;		
+		height: 6em;
+	}
+
+	.nav {
+		height: 5em;	
+	}
+
+	.nav li {
+		height: 1.5em;
+	} 
+
+	.rectangle {
+		float: left;
+		margin-left: 2em;
+	}
+
+	.intro {
+		display: inline-block;
+	}
+
+	.content {
+		height: 50em;
+	}
+	.text {
+		margin-right: 1em;
+	}
+
+	.about {
+		margin-left: 8%; 
+	}
+
+	.services {
+		float: right;
+		margin-right: 8%;
+	}
+
+	.clients {
+		width: 100%;
+		margin-left: 1em;
+		margin-right: 1em;
+		display: block
+	}
+
+	.content-title {
+		text-align: center;
+	}
+
+	.ceo-text {
+		margin-left: 2em;
+	}
+
+	.tweets, .posts {
+		margin-left: 15%;
+		margin-top: 1em;
+	}
+
+	.links, .contact {
+		margin-right: 15%;
+		float: right;
+		margin-top: 1em;
+	}
+
+	footer {
+		height: 45em
+	}
+
+
+
+
+
+
+	.copy {
+	height: 100px;
+	background-color: rgb(242, 242, 242);
+	color: rgb(146, 146, 146);
+	padding-top: 20px;
+	display: flex;
+	}
 }
