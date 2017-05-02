@@ -498,8 +498,9 @@ textarea {
 	.rectangle {
 	margin-right: 15%;
 	width: 70%;
-	height: 15em;
+	height: auto;
 	float: left;
+	background-repeat: no-repeat;
 	margin-right: 40px;
 	}
 
